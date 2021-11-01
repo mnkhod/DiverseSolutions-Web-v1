@@ -632,7 +632,6 @@ screen and (max-height: 767px) {
 .positions{
     display: flex;
     padding-top: 20px;
-    object-fit: cover;
 }
 
 .positions-text{
@@ -698,6 +697,7 @@ screen and (max-height: 767px) {
     width: 150px;
     height: 150px;
     border-radius: 20%;
+    object-fit: cover;
 }
 
 .link-hover:hover{
