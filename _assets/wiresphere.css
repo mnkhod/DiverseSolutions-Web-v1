@@ -673,6 +673,11 @@ screen and (max-height: 767px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.works-body span{
+    margin-left: 10px;
 }
 
 .works-body a{
