@@ -543,6 +543,10 @@ screen and (max-height: 767px) {
     width: 50%;
 }
 
+.logo-text{
+    margin-left: 10px;
+}
+
 .box{
     background-color: rgba(0,0,0,.4);
     display: flex;
@@ -740,6 +744,7 @@ screen and (max-height: 767px) {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 27px;
+    cursor: pointer;
 }
 
 .contact-us-positions{
