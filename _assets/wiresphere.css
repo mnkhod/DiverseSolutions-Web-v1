@@ -632,6 +632,7 @@ screen and (max-height: 767px) {
 .positions{
     display: flex;
     padding-top: 20px;
+    object-fit: cover;
 }
 
 .positions-text{
