@@ -866,6 +866,10 @@ screen and (max-height: 767px) {
         justify-content: space-evenly;
     }
 
+    .contact-us-icons a {
+        text-decoration: none;
+    }
+
     .contact-us-text p {
         font-size: 12px;
     }
