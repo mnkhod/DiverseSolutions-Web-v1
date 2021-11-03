@@ -784,6 +784,10 @@ screen and (max-height: 767px) {
     line-height: 1px;
 }
 
+.our-team-picture img{
+    object-fit: cover;
+}
+
 .our-team-picture h2{
     font-size: 30px;
     color: white;
