@@ -50,8 +50,8 @@ jQuery(function($) {
         var map = new google.maps.Map(document.getElementById('contact-map'), {
             zoom: 54,
             center: {
-                lat: 47.920441,
-                lng: 106.920432,
+                lat: 47.918069,
+                lng: 106.920008,
             },
             scrollwheel: false,
             mapTypeControlOptions: {
@@ -62,7 +62,7 @@ jQuery(function($) {
 		var marker = new google.maps.Marker({
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: {lat: 47.920441, lng: 106.920432},
+            position: {lat: 47.918069, lng: 106.920008},
             map: map
         });
 

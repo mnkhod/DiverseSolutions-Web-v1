@@ -19,7 +19,7 @@ html {
     margin: 0;
     font-family: Lato, sans-serif;
     font-weight: 400;
-    color: #FFF
+    color: #FFF;
 }
 a.nice-link {
     color: #FFF;
@@ -416,6 +416,7 @@ screen and (max-height: 767px) {
 .content .content-content.content-content--about {}.content .content-textwrapper {
     padding: 7px 100px;
     line-height: 2em;
+    font-size: 20px;
 }
 
 .content-textwrapper h2{
@@ -537,6 +538,7 @@ screen and (max-height: 767px) {
     font-size: 3.5em;
     line-height: 1.5em;
     margin-bottom: 20vh;
+    background-image: url("/_pics/bg3.png");
 }
 
 .container h3 {
@@ -555,9 +557,9 @@ screen and (max-height: 767px) {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
-    -webkit-box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
-    -moz-box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
+    background: #272727;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 31px;
 }
 
 .box-container{
@@ -611,7 +613,7 @@ screen and (max-height: 767px) {
 
 .box-text h2{
     color: white;
-    font-size: x-large;
+    
 }
 
 .our-team-text-p{
@@ -661,7 +663,7 @@ screen and (max-height: 767px) {
 }
 
 .works-body{
-    background-color: rgba(0,0,0,.4);
+    /* background-color: rgba(0,0,0,.4); */
     border: solid rgba(0,0,0,.4) 1px; 
     border-radius: 15px;
     padding: 5px;
@@ -669,9 +671,9 @@ screen and (max-height: 767px) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-    box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
-    -webkit-box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
-    -moz-box-shadow: 2px 2px 40px 15px rgba(89,88,88,0.67);
+    background: #272727;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 5px rgba(43, 43, 43, 0.5);
+    border-radius: 31px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -680,6 +682,7 @@ screen and (max-height: 767px) {
 
 .works-body span{
     margin-left: 10px;
+    font-size: 14px;
 }
 
 .works-body a{
@@ -691,7 +694,8 @@ screen and (max-height: 767px) {
 }
 
 .positions-text{
-    font-size: 10px;
+    font-size: 20px;
+    line-height: 1px;
 }
 
 .our-team-picture img{
@@ -738,11 +742,10 @@ screen and (max-height: 767px) {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
 }
 
 .contact-us-logo img{
-    width: 100px;
+    width: 150px;
 }
 
 .contact-us-text p{
@@ -758,7 +761,7 @@ screen and (max-height: 767px) {
 }
 
 .contact-us-positions{
-    padding-left: 5px;
+    padding-left: 30px;
 }
 
 .instagram:hover{
@@ -813,7 +816,7 @@ screen and (max-height: 767px) {
 .stage-logo-1{
     position: absolute;
     top: 14px;
-    left: 15px;
+    left: 39px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -859,6 +862,13 @@ screen and (max-height: 767px) {
 }
 
 @media screen and (max-width: 1120px) {
+
+    .support-border{
+        width: 83%;    
+    }
+    .contact-us-icons i {
+        font-size: 20px;
+    }
     .container{
         padding: 20px 25px;    
         
@@ -874,7 +884,7 @@ screen and (max-height: 767px) {
     }
 
     .fourth-container{
-        padding: 20px 20px;
+        padding: 20px 10px;
     }
 
     .contact-us-icons{
