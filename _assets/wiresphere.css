@@ -617,6 +617,7 @@ screen and (max-height: 767px) {
 .our-team-text-p{
     font-size: 18px;
     width: 85%;
+    text-align: justify;
 }
 .our-team-picture-two h2{
     color: white;
@@ -823,7 +824,7 @@ screen and (max-height: 767px) {
 @media screen and (max-width: 1440px) {
     .our-team{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -868,7 +869,7 @@ screen and (max-height: 767px) {
     }
 
     .three-container{
-        padding: 20px 40px;
+        padding: 20px 27px;
         
     }
 
@@ -903,7 +904,7 @@ screen and (max-height: 767px) {
     }
     .our-team{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .our-team img{
         width: 300px;
@@ -914,7 +915,7 @@ screen and (max-height: 767px) {
         width: 100%;
     }
     .our-team-text-p{
-        width: 100%;
+        display: none;
     }
 
     .our-team-picture-two{
