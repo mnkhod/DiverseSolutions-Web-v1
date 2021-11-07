@@ -539,8 +539,6 @@ screen and (max-height: 767px) {
     line-height: 1.5em;
     margin-bottom: 20vh;
     background-image: url("/_pics/bg3.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 .container h3 {
