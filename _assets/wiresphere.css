@@ -644,7 +644,6 @@ screen and (max-height: 767px) {
 
 .positions-text{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     --tw-space-x-reverse: 0;
@@ -652,6 +651,11 @@ screen and (max-height: 767px) {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
     line-height: 1px;
     width: 100%;
+    text-align: left;
+}
+
+.bg-image{
+    background-image: url('../_pics/bg2.png');
 }
 
 .three-container{
@@ -660,6 +664,7 @@ screen and (max-height: 767px) {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #00e0ce;
+    background-image: url('../_pics/bg2.png');
 }
 
 .works a{
@@ -698,10 +703,6 @@ screen and (max-height: 767px) {
     text-align: center;
 }
 
-.positions-text{
-    font-size: 20px;
-    line-height: 1px;
-}
 
 .our-team-picture img{
     width: 250px;
@@ -710,8 +711,8 @@ screen and (max-height: 767px) {
 }
 
 .positions img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 20%;
     object-fit: cover;
 }
@@ -793,6 +794,8 @@ screen and (max-height: 767px) {
     transition-duration: 0.3s;
 }
 
+
+
 .email:hover{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -846,15 +849,16 @@ screen and (max-height: 767px) {
 
 .left-team h2 {
     font-size: 15px;
+    
 }
 
 .left-team h4 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 15px;
+    
 }
 
 .right-team h4 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .stage-logo-1{
