@@ -414,7 +414,7 @@ screen and (max-height: 767px) {
     color: #00e0ce
 }
 .content .content-content.content-content--about {}.content .content-textwrapper {
-    padding: 7px 70px;
+    padding: 7px 40px;
     line-height: 2em;
     font-size: 20px;
 }
@@ -635,6 +635,11 @@ screen and (max-height: 767px) {
 .positions{
     display: flex;
     padding-top: 20px;
+    cursor: pointer;
+}
+
+.positions:hover{
+    opacity: 0.6;
 }
 
 .positions-text{
@@ -665,7 +670,7 @@ screen and (max-height: 767px) {
 .works-body{
     /* background-color: rgba(0,0,0,.4); */
     border: solid rgba(0,0,0,.4) 1px; 
-    border-radius: 15px;
+    border-radius: 12px !important;
     padding: 5px;
     width: 92%;
     --tw-space-y-reverse: 0;
@@ -725,11 +730,12 @@ screen and (max-height: 767px) {
 
 .fourth-container h5{
     font-size: 30px;
+    width: 50%;
 }
 
 .support-border{
-    background-color: rgba(0,0,0,.4);
-    border: solid rgba(0,0,0,.4) 1px; 
+    background-color: #272727;
+    border: solid #272727;
     border-radius: 15px;
     width: 88%; 
     padding: 20px;
@@ -756,9 +762,10 @@ screen and (max-height: 767px) {
 .contact-us-icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 27px;
     cursor: pointer;
+    width: 25%;
 }
 
 .contact-us-positions{
@@ -818,8 +825,23 @@ screen and (max-height: 767px) {
     margin-right: 66px;
 }
 
+.right-team a{
+    text-decoration: none;
+    color:white;
+}
+
+.right-left a{
+    text-decoration: none;
+    color:white;
+}
+
 .right-team h2{
     font-size: 15px;
+}
+
+.left-team a {
+    text-decoration: none;
+    color: white;
 }
 
 .left-team h2 {
