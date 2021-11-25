@@ -414,7 +414,7 @@ screen and (max-height: 767px) {
     color: #00e0ce
 }
 .content .content-content.content-content--about {}.content .content-textwrapper {
-    padding: 7px 100px;
+    padding: 7px 70px;
     line-height: 2em;
     font-size: 20px;
 }
@@ -651,7 +651,7 @@ screen and (max-height: 767px) {
 
 .three-container{
     width: 100%;
-    padding: 7px 100px;
+    padding: 7px 30px;
     font-size: 1.5em;
     line-height: 1.5em;
     color: #00e0ce;
@@ -667,7 +667,7 @@ screen and (max-height: 767px) {
     border: solid rgba(0,0,0,.4) 1px; 
     border-radius: 15px;
     padding: 5px;
-    width: 80%;
+    width: 92%;
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
@@ -717,21 +717,21 @@ screen and (max-height: 767px) {
 
 .fourth-container{
     width: 100%;
-    padding: 7px 100px;
+    padding: 7px 30px;
     color: white;
     font-size: 1.5em;
     padding-bottom: 40px;
 }
 
-.fourth-container h3{
-    font-size: 20px;
+.fourth-container h5{
+    font-size: 30px;
 }
 
 .support-border{
     background-color: rgba(0,0,0,.4);
     border: solid rgba(0,0,0,.4) 1px; 
     border-radius: 15px;
-    width: 75%; 
+    width: 88%; 
     padding: 20px;
 }
 
@@ -810,8 +810,25 @@ screen and (max-height: 767px) {
 }
 
 .our-team-picture h2{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+}
+
+.right-team h2{
+    font-size: 15px;
+}
+
+.left-team h2 {
+    font-size: 15px;
+}
+
+.left-team h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.right-team h4 {
+    font-size: 20px;
 }
 
 .stage-logo-1{
