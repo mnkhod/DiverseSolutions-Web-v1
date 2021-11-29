@@ -824,10 +824,6 @@ screen and (max-height: 767px) {
     color: white;
 }
 
-.right-team{
-    margin-right: 26px;
-}
-
 .right-team a{
     text-decoration: none;
     color:white;
