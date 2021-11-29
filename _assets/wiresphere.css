@@ -825,7 +825,7 @@ screen and (max-height: 767px) {
 }
 
 .right-team{
-    margin-right: 66px;
+    margin-right: 26px;
 }
 
 .right-team a{
@@ -861,6 +861,12 @@ screen and (max-height: 767px) {
     font-size: 15px;
 }
 
+.icons-positions{
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .stage-logo-1{
     position: absolute;
     top: 14px;
@@ -891,6 +897,11 @@ screen and (max-height: 767px) {
 
     .positions{
         padding-top: 15px;
+        text-align: center;
+    }
+
+    .positions-text{
+        text-align: center;
     }
 
     .our-team-picture p {
@@ -903,6 +914,7 @@ screen and (max-height: 767px) {
         justify-content: center;
         align-items: center;
         padding-top: 15px;
+        text-align: center;
     }
     .content-textwrapper h2{
         color: #00e0ce;
@@ -927,7 +939,7 @@ screen and (max-height: 767px) {
     }
 
     .three-container{
-        padding: 20px 27px;
+        padding: 20px 10px;
         
     }
 
@@ -979,7 +991,7 @@ screen and (max-height: 767px) {
     .our-team-picture-two{
         display: flex;
         flex-direction: column;
-
+        align-items: center;
     }
 
     .positions{
@@ -1019,6 +1031,10 @@ screen and (max-height: 767px) {
     } 
     .fourth-container{
         font-size: 30px;
+    }
+    .fourth-container h5{
+        font-size: 30px;
+        width: 100%;
     }
 }  
 
