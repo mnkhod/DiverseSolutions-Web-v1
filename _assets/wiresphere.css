@@ -906,8 +906,7 @@ screen and (max-height: 767px) {
     }
     .our-team-picture-two{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding-top: 15px;
         text-align: center;
