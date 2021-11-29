@@ -197,6 +197,15 @@ screen and (max-height: 640px) {
         font-size: 2em
     }
 }
+
+@media screen and (max-width: 1280px),
+screen and (max-height: 640px) {
+    .stage>.stage-header h1,
+    .stage>.stage-header h2 {
+        font-size: 2em
+    }
+}
+
 @media screen and (max-width: 480px) {
     .stage>.stage-header h1,
     .stage>.stage-header h2 {
